@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index1.css"/>
+    <link rel="stylesheet" href="index.html"/>
+    <script src="index1.js" ></script>
+    <title>Passinho do romano</title>
+
+</head>
+ 
+<body>
+  <h1>Códificação</h1> 
+    <div class="imagem"></div>
+    
+    <form>        
+    <div id="selecione">
+   
+    <p>Método:<strong> Cifra de César</strong></p>
+
+   
+    <p id="titleId">Mensagem</p>
+   
+    <div>          
+     <textarea name="sourceText" 
+        rows="8"
+        cols="50"         
+        spellcheck="false"
+        value="">                       
+     </textarea>
+    </div>
+   
+    <div>      
+     <label for="shift">Selecione:</label>
+     <input type="number" min="1" max="25" id="shift" name="shift">
+    
+   </div>
+    
+   <div>      
+     <input type="button" id="encrypt" 
+        value="Codificar" 
+        onclick="encryptText();">
+     <input type="button" id="decrypt" 
+        value="Decodificar" 
+        onclick="decryptText();">    
+   </div>
+   
+   </form>
+ </body>
+ <button><a href="index.html">Voltar</a></button>
+ </html>

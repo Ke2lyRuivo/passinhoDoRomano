@@ -1,0 +1,47 @@
+body{
+    width: 100%;
+    margin: 0;
+    display: column;
+    align-items: center;
+    background-image: url("caveira.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+      
+}
+
+
+h1{
+    width: fit-content;
+    margin: 60px;
+    margin-left: 600px;
+    align-items: center;
+    color: gold;
+    border-style: solid,greenyellow;
+    border-radius: 20px;
+    background-color: honeydew;
+    
+}
+
+form{
+    text-align: center;
+    border: solid gold;
+    background-color: rgb(194, 235, 186);
+    width: fit-content;
+    margin: 100px;
+    margin-left: 500px;
+    align-items: center; 
+    color: rgb(16, 19, 16);
+    
+}
+
+p{
+    align-items: center;
+    text-align: center;
+    color: rgb(16, 19, 16);
+}
+    
+a{
+    text-decoration: none;
+    color: rgb(16, 19, 16);
+} 
